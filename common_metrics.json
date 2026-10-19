@@ -1,0 +1,34 @@
+[
+  {
+    "model": "YOLO11n",
+    "validation_images": 21,
+    "confidence_threshold_for_precision_recall_f1": 0.25,
+    "iou_threshold_for_precision_recall_f1": 0.5,
+    "true_positives": 65,
+    "false_positives": 7,
+    "false_negatives": 8,
+    "precision": 0.9027777777777778,
+    "recall": 0.8904109589041096,
+    "f1": 0.896551724137931,
+    "map_50": 0.9371157288551331,
+    "map_50_95": 0.43908095359802246,
+    "mean_inference_ms_per_image_excluding_warmup": 32.62660000040168,
+    "timing_note": "Model forward/inference call only; common warm-up and synchronization used. Pre/postprocessing and image I/O are excluded."
+  },
+  {
+    "model": "Faster R-CNN ResNet50 FPN",
+    "validation_images": 21,
+    "confidence_threshold_for_precision_recall_f1": 0.25,
+    "iou_threshold_for_precision_recall_f1": 0.5,
+    "true_positives": 69,
+    "false_positives": 46,
+    "false_negatives": 4,
+    "precision": 0.6,
+    "recall": 0.9452054794520548,
+    "f1": 0.7340425531914895,
+    "map_50": 0.955082893371582,
+    "map_50_95": 0.43373098969459534,
+    "mean_inference_ms_per_image_excluding_warmup": 62.95614285720928,
+    "timing_note": "Model forward/inference call only; common warm-up and synchronization used. Pre/postprocessing and image I/O are excluded."
+  }
+]

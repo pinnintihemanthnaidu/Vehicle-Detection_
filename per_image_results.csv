@@ -1,0 +1,43 @@
+model,image,ground_truth_cars,predictions_conf_ge_0.25,true_positives_iou_ge_0.50,false_positives_iou_ge_0.50,false_negatives_iou_ge_0.50,inference_ms
+YOLO11n,00601.jpg,1,1,1,0,0,19.308
+YOLO11n,00691.jpg,1,1,1,0,0,20.593
+YOLO11n,01051.jpg,1,1,1,0,0,28.524
+YOLO11n,01171.jpg,1,1,1,0,0,34.578
+YOLO11n,01411.jpg,1,1,1,0,0,56.65
+YOLO11n,01501.jpg,1,1,1,0,0,39.128
+YOLO11n,02101.jpg,6,5,5,0,1,17.894
+YOLO11n,02131.jpg,5,6,5,1,0,19.327
+YOLO11n,02161.jpg,6,4,4,0,2,22.522
+YOLO11n,02251.jpg,7,7,7,0,0,24.049
+YOLO11n,02431.jpg,7,7,7,0,0,18.748
+YOLO11n,03571.jpg,4,4,3,1,1,32.031
+YOLO11n,04081.jpg,1,2,1,1,0,47.366
+YOLO11n,04231.jpg,1,1,1,0,0,35.398
+YOLO11n,04441.jpg,4,4,3,1,1,33.454
+YOLO11n,04561.jpg,4,4,4,0,0,29.448
+YOLO11n,04801.jpg,5,4,4,0,1,53.211
+YOLO11n,05131.jpg,2,3,2,1,0,34.97
+YOLO11n,05551.jpg,3,4,3,1,0,54.159
+YOLO11n,05821.jpg,6,5,5,0,1,40.333
+YOLO11n,06301.jpg,6,6,5,1,1,23.469
+Faster R-CNN ResNet50 FPN,00601.jpg,1,2,1,1,0,63.737
+Faster R-CNN ResNet50 FPN,00691.jpg,1,1,1,0,0,62.701
+Faster R-CNN ResNet50 FPN,01051.jpg,1,1,1,0,0,66.09
+Faster R-CNN ResNet50 FPN,01171.jpg,1,1,1,0,0,62.482
+Faster R-CNN ResNet50 FPN,01411.jpg,1,2,1,1,0,62.632
+Faster R-CNN ResNet50 FPN,01501.jpg,1,2,1,1,0,61.653
+Faster R-CNN ResNet50 FPN,02101.jpg,6,5,5,0,1,63.923
+Faster R-CNN ResNet50 FPN,02131.jpg,5,9,5,4,0,62.841
+Faster R-CNN ResNet50 FPN,02161.jpg,6,7,5,2,1,64.527
+Faster R-CNN ResNet50 FPN,02251.jpg,7,10,7,3,0,61.356
+Faster R-CNN ResNet50 FPN,02431.jpg,7,11,7,4,0,62.423
+Faster R-CNN ResNet50 FPN,03571.jpg,4,6,4,2,0,61.848
+Faster R-CNN ResNet50 FPN,04081.jpg,1,5,1,4,0,62.798
+Faster R-CNN ResNet50 FPN,04231.jpg,1,5,1,4,0,61.778
+Faster R-CNN ResNet50 FPN,04441.jpg,4,8,4,4,0,62.698
+Faster R-CNN ResNet50 FPN,04561.jpg,4,8,4,4,0,62.165
+Faster R-CNN ResNet50 FPN,04801.jpg,5,8,5,3,0,66.718
+Faster R-CNN ResNet50 FPN,05131.jpg,2,6,2,4,0,62.155
+Faster R-CNN ResNet50 FPN,05551.jpg,3,4,3,1,0,63.034
+Faster R-CNN ResNet50 FPN,05821.jpg,6,7,5,2,1,61.716
+Faster R-CNN ResNet50 FPN,06301.jpg,6,7,5,2,1,62.803
